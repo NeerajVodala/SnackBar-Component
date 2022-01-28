@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,47 @@
     <link rel="stylesheet" href="styles.css">
     <title>SnackBar Component - Assignment</title>
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="btn-container">
+            <button class="baseline-btn">BASELINE</button>
+            <button class="leading-btn">LEADING</button>
+            <button class="stacked-btn">STACKED</button>
+        </div>
+
+
+        <div class="baseline-container">
+            <p class="baseline-text">Can't send photo. Retry in 5 seconds.</p>
+            <button class="retry-btn">RETRY</button>
+            <img src="svg/crossIcon.svg" alt="">
+        </div>
+
+
+        <div class="leading-container">
+            <p class="leading-text">Your photo has been archived.</p>
+            <button class="undo-btn">UNDO</button>
+            <img src="svg/crossIcon.svg" alt="">
+        </div>
+
+
+        <div class="stacked-container">
+            <p class="stacked-text">This item already has the label "travel". You can add a new label.</p>
+            <div class="stacked-btn-container">
+                <button class="label-btn">ADD A NEW LABEL</button>
+                <img src="svg/crossIcon.svg" alt="">
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    </div>
+
+<script src="app.js"></script>
+
 </body>
+
 </html>

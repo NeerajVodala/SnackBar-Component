@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #323232;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+    height: 350px;
+    border-radius: 10px;
+    color: #14FFEC;
+    background-color: #212121;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    position: relative;
+}
+
+.baseline-container {
+    position: absolute;
+    bottom: 1rem;
+    /* display: flex; */
+    display: none;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    background-color: #323232;
+    padding: 0.8rem;
+    border-radius: 5px;
+    max-width: 500px;
+}
+
+.baseline-container button{
+    background: none;
+    border: none;
+    color: RGB(185, 130, 238);
+}
+
+img{
+    filter: invert(76%) sepia(100%) saturate(389%) hue-rotate(100deg) brightness(104%) contrast(107%);
+}
+
+.leading-container {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    /* display: flex; */
+    display: none;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    background-color: #323232;
+    padding: 0.8rem;
+    border-radius: 5px;
+    max-width: 500px;
+}
+
+.leading-container button{
+    background: none;
+    border: none;
+    color: RGB(185, 130, 238);
+}
+
+.stacked-container {
+    position: absolute;
+    bottom: 1rem;
+    /* display: flex; */
+    flex-direction: column;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+    background-color: #323232;
+    padding: 0.8rem;
+    border-radius: 5px;
+}
+
+.stacked-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 0.8rem;
+}
+
+.stacked-container button{
+    background: none;
+    border: none;
+    color: RGB(185, 130, 238);
+}
+
+.btn-container button {
+    background: none;
+    outline: none;
+    border: 2px solid #14FFEC;
+    border-radius: 5px;
+    color: #14FFEC;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+
+
+
