@@ -20,8 +20,8 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    width: 80%;
-    height: 350px;
+    width: 75%;
+    height: 250px;
     border-radius: 10px;
     color: #14FFEC;
     background-color: #212121;
@@ -114,6 +114,15 @@ img{
 
 button {
     cursor: pointer;
+}
+
+.home-btn{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
 }
 
 
